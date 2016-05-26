@@ -1,0 +1,12 @@
+/class/ 用户类文件目录
+/config/ 文件目录
+/data/  数据和缓存文件目录
+/images/  图片服务器目录, 可放其他地方，需要有写权限, 或软链接到其他地方
+/lib/  框架核心类库
+/log/日志目录，可放其他地方，需要有写权限
+/maintenance/  后台命令行运行文件
+/static/ 静态资源服务器文件， css,js,image, 或软链接到其他地方
+/template/  模板文件目录
+/upload/  上传文件目录， 外部不能直接访问
+/webroot/ 网站服务器根目录
+/init.inc.php/所有类顶部包含文件

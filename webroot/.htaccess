@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /
+
+#理房通转换规则、所有.php页面转换为.do
+RewriteRule ^(.*).do$ $1.php [QSA,L]
